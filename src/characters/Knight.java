@@ -1,8 +1,13 @@
 package characters;
 
-public class Knight extends Character {
+public class Knight extends Character{
     @Override
-    public void figth() {
+    public void display() {
+        System.out.println("\tKnight");
+    }
+
+    @Override
+    public void fight() {
 
     }
 }
